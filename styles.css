@@ -3,6 +3,8 @@
  -moz-box-sizing: border-box; /* Firexfox */
  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
  box-sizing: border-box; /* IE */
+
+ font-family: helvetica;
 }
 
 /* Clear fix hack */
@@ -19,6 +21,22 @@
 	clear: both;
 }
 
+header {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	padding: 0 0 3 0px;
+	font-weight: bold;
+}
+
+a:hover {
+	border-bottom: 1px solid #000;
+}
+
 ul {
 	list-style: none;
 	overflow: hidden;
@@ -27,6 +45,7 @@ ul {
 
 li {
 	float: left;
+	padding-bottom: 5px;
 	padding-right: 10px;
 
 }
