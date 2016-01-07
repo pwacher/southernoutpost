@@ -47,6 +47,10 @@ nav {
     padding-top: 3px;
 }
 
+main {
+  padding: 10px;
+}
+
 .sticky {
     position: fixed;
     top: 0px;
