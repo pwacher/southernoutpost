@@ -23,13 +23,33 @@
 	clear: both;
 }
 
+.shadows {
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
 header {
 	font-size: x-large;
 	font-weight: bold;
-	padding: 100px 0px 100px 0px;
-	border-bottom: 2px solid #000;	
+    height: 200px;
 	text-align: center;
 	background-color: grey;
+    position: relative;
+}
+
+header p {
+    padding: 85px;
+}
+
+nav {
+    background-color: cadetblue;
+    padding-top: 3px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
 }
 
 a {
